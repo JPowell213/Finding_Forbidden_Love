@@ -1,5 +1,5 @@
 # Choose.py
-# by Johnathan Powell & Gordon
+# by Johnathan Powell & Gordon Jiroux
 # Description: starter code for the Choose Your
 # Own Adventure Project
 
