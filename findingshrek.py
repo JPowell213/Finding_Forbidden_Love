@@ -28,11 +28,10 @@ def intro():
 ################ JP's Work #####################
 def choice1():
     choice = simpledialog.askinteger("Choose wisely",
-                                     "This is the next part of the story.  Now you must choose 1 or 2 again.")
+                                     "You didn't buy an onion and you go into the garage to put some groceries away and you find an onion.  Do you pick it up? 1 or 2.")
     if (choice == 1):
-        messagebox.showinfo("The End",
-                            "You chose right.  THE END")
-
+        messagebox.showinfo("Yes",
+                            "You pick up the onion and go for a drive to think, as your driving you see the batmobile fly right next to you and \n.  THE END")
     elif (choice == 2):
         messagebox.showinfo("The End",
                             "You chose ok.  THE END")
