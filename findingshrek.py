@@ -14,10 +14,12 @@ w.pack()
 
 def intro():
     """ Introductory Function -> starts the story going """
-    messagebox.showinfo("Title", "\nHello, you are a _____ from ____. " + \
-                        "You stumble across such and such.")
-    choice = simpledialog.askinteger("Choose wisely",
-                                   "You have a choice to pick: 1 or 2.")
+    messagebox.showinfo("Title", "\n You are a normal person with a job at a worldwide company. Work has been a bit stressful lately. n\
+You get off work and you get called by your roommate calls you on the way home and asks you to go to the store and pick up some vegitables for dinner. n\
+you say you can, so you go to the local grocery store and buy some vegitable." + \
+                        "You stumble across the onions section and you look at the onions.")
+    choice = simpledialog.askinteger("Do you buy an onion?",
+                                   "you must choose 1 or 2. 1 for Buying the onion,2 for not buying the onion.")
     if choice == 1:
         choice1()
     elif choice == 2:
@@ -28,7 +30,7 @@ def intro():
 ################ JP's Work #####################
 def choice2():
     choice = simpledialog.askinteger("Choose wisely",
-                                     "You didn't buy an onion and you go into the garage to put some groceries away and you find an onion.  Do you pick it up? 1 or 2.")
+                                     "You didn't buy an onion and you go home and then into the garage to put some groceries away and you find an onion.  Do you pick it up? 1 or 2.")
     if (choice == 1):
         messagebox.showinfo("Yes",
                             "You pick up the onion and go for a drive to think, as your driving you see the batmobile fly right next to you and n\
