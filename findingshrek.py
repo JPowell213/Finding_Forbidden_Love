@@ -45,17 +45,24 @@ right next to you then you see an explosive batarang hit your car and blow up yo
 
 ################ Gordon's Work #####################
 def choice1():
-    choice = simpledialog.askinteger("Choose wisely",
-                                     "This is the next part of the story.  Now you must choose 1 or 2 again.")
+    choice = simpledialog.askinteger("you buy the onion",
+                                     "You leave the gorcery store and see a sign on the street for a local library. the sign says 'free books!' go get book?")
     if (choice == 1):
-        messagebox.showinfo("The End",
-                            "You chose right.  THE END")
+        messagebox.showinfo(" freeee book " , "you chose to go to the library and get a freeeeeeeee book.",)
+        choice3() 
 
     elif (choice == 2):
-        messagebox.showinfo("The End",
-                            "You chose ok.  THE END")
+        messagebox.showinfo("ouch...",
+                            "you decide not to go to the library. As you walk down the sidewalk, you lip and fall on a onion peel, n\
+     headfirst into the ground and along ewith that headfirst into a coma untill you die. \
+     you live the rest of your natural life as a vegitable. THE END.")
     else:
-        choice2()
+        choice1()
+def choice3():
+    choice = simpledialog.askinterger("The Library" , "You arrive at the library and you see only 2 books left to choose for the free books, \
+a book titled 'Forbidden Onion Magic' and another called 'My Little Pony: Flutterbutts Power' which do you choose?")
+    if (choice == 1):
+        messagebox.showinfo("The Power Of The Onion..." ,
 
 ################ Main #####################
 intro()
