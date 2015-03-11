@@ -44,8 +44,6 @@ has been happening at your job, and suddenly you hear a roar on an engine as you
 right next to you then you see an explosive batarang hit your car and blow up your car...THE END")
     else:
         choice1()
-def choice3():
-    messagebox.showinfo("You did it bitch", "you did it bitch")
 
 ################ Gordon's Work #####################
 def choice1():
