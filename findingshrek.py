@@ -65,8 +65,10 @@ a book titled 'Forbidden Onion Magic' and another called 'My Little Pony: Flutte
         messagebox.showinfo("The Power Of The Onion..." , "As soon as you pick up the book the clouds outside. You rush outside as a large meteor soars down through the parted clouds.")
     choice5()
     elif (choice == 2):
-        messagebox.showinfo
-
+        messagebox.showinfo("Flutterbutts Demise...." , "you pick up the MLP book and head back to your car to head home.")
+    else:
+        choice3()
+    
 
 def choice5():
     choice = simpledialog.askinterger( "The meteor..." , "The meteor crash lands right infront of you. From the meteor, an onion starts hovering into the air and slowly starts coming towards you. \
@@ -75,7 +77,10 @@ As soon as the onion starts floating towards you, the onion magic book flies fro
 if (choice == 1):
     messagebox.showinfo("The Shrekoning..." , "You decide to summon the Ogrelord back into the physical realm")
     choice6
-        
+    elif (choice == 2):
+        messagebox.showinfo("The Onion Sadness..." , "You decide not to summon Shrek")
+    else:
+        choice5()
                                     
 ################ Main #####################
 intro()
