@@ -14,8 +14,8 @@ w.pack()
 
 def intro():
     """ Introductory Function -> starts the story going """
-    messagebox.showinfo("Title", "\n You are a normal person with a job at a worldwide company. Work has been a bit stressful lately. n\
-You get off work and you get called by your roommate calls you on the way home and asks you to go to the store and pick up some vegitables for dinner. n\
+    messagebox.showinfo("Title", "\n You are a normal person with a job at a worldwide company. Work has been a bit stressful lately. \
+ You get off work and you get called by your roommate you on the way home and asks you to go to the store and pick up some vegitables for dinner. n\
 you say you can, so you go to the local grocery store and buy some vegitable." + \
                         "You stumble across the onions section and you look at the onions.")
     choice = simpledialog.askinteger("Do you buy an onion?",
@@ -35,6 +35,8 @@ def choice2():
         messagebox.showinfo("Yes",
                             "You pick up the onion and go for a drive to think, as your driving you see the batmobile fly right next to you and n\
 you see a batarange get knocked out of the air as if it hit something and you live on as if nothing happened.  THE END")
+        choice3() 
+        
     elif (choice == 2):
         messagebox.showinfo("The End",
                             "You didn't pick up the onion. You go on a drive to think about something that n\
@@ -42,6 +44,8 @@ has been happening at your job, and suddenly you hear a roar on an engine as you
 right next to you then you see an explosive batarang hit your car and blow up your car...THE END")
     else:
         choice1()
+def choice3():
+    messagebox.showinfo("You did it bitch", "you did it bitch")
 
 ################ Gordon's Work #####################
 def choice1():
