@@ -1,0 +1,9 @@
+-open gitbash
+-$ cd 'filepath'
+-Pull any changes from origin master(online repo)
+-$ git pull origin master
+-Work on your project get something done & working
+-$git add .
+-$git commit -m "message"
+-Push changes
+-$git push origin master
