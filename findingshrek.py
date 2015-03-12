@@ -42,6 +42,19 @@ has been happening at your job, and suddenly you hear a roar on an engine as you
 right next to you then you see an explosive batarang hit your car and blow up your car...THE END")
     else:
         choice1()
+def choice6():
+    choice = simpledialog.astinteger("The OgreLord",
+                                     "You have summoned Shrek in to the world, now you have a choice. Betray Shrek or side with him")
+
+    if (choice == 1):
+        messagebox.showinfo("The betrael",
+                            "Shrek lets out a ogre roar, you are frightened and you enter a fighting stance")
+        choice7()
+    elif (choice == 2):
+        messagebox.showinfo("The Great Swamp",
+                            "The Great swamp beyond resides down to earth and takes you with it, THE END")
+    else:
+        choice6()
 
 ################ Gordon's Work #####################
 def choice1():
@@ -64,6 +77,7 @@ a book titled 'Forbidden Onion Magic' and another called 'My Little Pony: Flutte
     if (choice == 1):
         messagebox.showinfo("The Power Of The Onion..." , "As soon as you pick up the book the clouds outside. You rush outside as a large meteor soars down through the parted clouds.")
     choice5()
+#YOU BROKE THE BUILD TRY RUNNING IT THE elif WILL RUN AS A SYNTAX ERROR :) good job###
     elif (choice == 2):
         messagebox.showinfo("Flutterbutts Demise...." , "you pick up the MLP book and head back to your car to head home.")
     else:
