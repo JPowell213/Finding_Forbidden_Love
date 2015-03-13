@@ -70,7 +70,23 @@ def choice7():
                             "Useing you past experience with MMA and sumo wrestling you punch Shrek causing him to fall into a vat of flowers and melt.")
         choice8()
     else:
-        choice7() 
+        choice7()
+def choice8():
+    choice = simpledialog.askinteger("Defeat....",
+                                   "You defeated shrek and a knight walks up to you. you have no idea where this knight came from but he wants to deliver a message to you." + \
+                                   "The message says, 'Dear valiant citizen, I am Lord Farquaad and I am summoning you to my palace to talk about a deal between you and me." + \
+                                   "Do you go? 1. Go 2.Don't Go")
+    if (choice == 1):
+        messagebox.showinfo("Yes",
+                            "You decide to go, and a horse appears from thin air and you ride to the palace with the knight.")
+        choice9()
+    elif (choice == 2):
+        messagebox.showinfo("No",
+                            "You have decided not to go to the palace and you start to walk away from the knight you hear a draggon roar and a dragon ridden by a donkey swoops down" + \
+                            " and eats you then spits you out then flys away. THE END")
+    else:
+        choice8()
+    
 ################ Gordon's Work #####################
 def choice1():
     choice = simpledialog.askinteger("you buy the onion",
