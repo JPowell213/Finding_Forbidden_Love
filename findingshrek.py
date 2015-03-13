@@ -72,12 +72,11 @@ def choice1():
     else:
         choice1()
 def choice3():
-    choice = simpledialog.askinterger("The Library" , "You arrive at the library and you see only 2 books left to choose for the free books, \
+    choice = simpledialog.askinteger("The Library" , "You arrive at the library and you see only 2 books left to choose for the free books, \
 a book titled 'Forbidden Onion Magic' and another called 'My Little Pony: Flutterbutts Power' which do you choose?")
     if (choice == 1):
         messagebox.showinfo("The Power Of The Onion..." , "As soon as you pick up the book the clouds outside. You rush outside as a large meteor soars down through the parted clouds.")
         choice5()
-    #YOU BROKE THE BUILD TRY RUNNING IT THE elif WILL RUN AS A SYNTAX ERROR :) good job###
     elif (choice == 2):
         messagebox.showinfo("Flutterbutts Demise...." , "you pick up the MLP book and head back to your car to head home.")
     else:
@@ -85,7 +84,7 @@ a book titled 'Forbidden Onion Magic' and another called 'My Little Pony: Flutte
     
 
 def choice5():
-    choice = simpledialog.askinterger( "The meteor..." , "The meteor crash lands right infront of you. From the meteor, " + \
+    choice = simpledialog.askinteger( "The meteor..." , "The meteor crash lands right infront of you. From the meteor, " + \
                                            "an onion starts hovering into the air and slowly starts coming towards you." + \
                                            "As soon as the onion starts floating towards you, the onion magic book flies " + \
                                            "from your hand and starts flipping pages untill it gets to the page titled 'Summoning Shrek'. " + \
