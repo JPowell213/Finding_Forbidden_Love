@@ -14,9 +14,9 @@ w.pack()
 
 def intro():
     """ Introductory Function -> starts the story going """
-    messagebox.showinfo("Title", "\n You are a normal person with a job at a worldwide company. Work has been a bit stressful lately. n\
-You get off work and you get called by your roommate calls you on the way home and asks you to go to the store and pick up some vegitables for dinner. n\
-you say you can, so you go to the local grocery store and buy some vegitable." + \
+    messagebox.showinfo("Title", "\n You are a normal person with a job at a worldwide company. Work has been a bit stressful lately." + \
+                        "You get off work and you get called by your roommate calls you on the way home and asks you to go to the store and pick up some vegitables for dinner." + \
+                        "you say you can, so you go to the local grocery store and buy some vegitable." + \
                         "You stumble across the onions section and you look at the onions.")
     choice = simpledialog.askinteger("Do you buy an onion?",
                                    "you must choose 1 or 2. 1 for Buying the onion,2 for not buying the onion.")
@@ -101,5 +101,4 @@ def choice5():
                                     
 ################ Main #####################
 intro()
-
 root.destroy()
