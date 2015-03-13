@@ -43,7 +43,7 @@ right next to you then you see an explosive batarang hit your car and blow up yo
     else:
         choice1()
 def choice6():
-    choice = simpledialog.astinteger("The OgreLord",
+    choice = simpledialog.askinteger("The OgreLord",
                                      "You have summoned Shrek in to the world, now you have a choice. Betray Shrek or side with him")
 
     if (choice == 1):
@@ -56,6 +56,21 @@ def choice6():
     else:
         choice6()
 
+def choice7():
+    choice = simpledialog.askinteger("The fight",
+                                     "As you enter your fighting stance you find a weak point in shreks defences," + \
+                                     "Do you kick or punch Shrek?" + \
+                                     "1. Kick" + \
+                                     "2. Punch")
+    if (choice == 1):
+        messagebox.showinfo("Kick",
+                            "You go for the kick but shrek catches your foot and throws you around the earth, as you come back around he punches you in the face ending the fight and your life, THE END.")
+    elif (choice == 2):
+        messagebox.showinfo("Punch",
+                            "Useing you past experience with MMA and sumo wrestling you punch Shrek causing him to fall into a vat of flowers and melt.")
+        choice8()
+    else:
+        choice7() 
 ################ Gordon's Work #####################
 def choice1():
     choice = simpledialog.askinteger("you buy the onion",
