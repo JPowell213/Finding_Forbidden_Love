@@ -15,8 +15,8 @@ w.pack()
 def intro():
     """ Introductory Function -> starts the story going """
     messagebox.showinfo("Title", "\n You are a normal person with a job at a worldwide company. Work has been a bit stressful lately. n\
-You get off work and you get called by your roommate calls you on the way home and asks you to go to the store and pick up some vegitables for dinner. n\
-you say you can, so you go to the local grocery store and buy some vegitable." + \
+You get off work and you get called by your roommate on the way home and asks you to go to the store and pick up some vegitables for dinner. n\
+you say you can, so you go to the local grocery store and buy some vegitables." + \
                         "You stumble across the onions section and you look at the onions.")
     choice = simpledialog.askinteger("Do you buy an onion?",
                                    "you must choose 1 or 2. 1 for Buying the onion,2 for not buying the onion.")
@@ -56,7 +56,6 @@ def choice6():
     else:
         choice6()
 
-<<<<<<< HEAD
 def choice7():
     choice = simpledialog.askinteger("The fight",
                                      "As you enter your fighting stance you find a weak point in shreks defences," + \
@@ -89,9 +88,6 @@ def choice8():
         choice8()
 
     
-    
-=======
->>>>>>> cbe167e481eb41b76b26fe604bce944296a6b5f6
 ################ Gordon's Work #####################
 def choice1():
     choice = simpledialog.askinteger("you buy the onion",
