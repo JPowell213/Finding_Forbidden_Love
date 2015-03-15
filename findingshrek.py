@@ -86,6 +86,8 @@ def choice8():
                             " and eats you then spits you out then flys away. THE END")
     else:
         choice8()
+
+    
     
 ################ Gordon's Work #####################
 def choice1():
