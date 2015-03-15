@@ -14,9 +14,9 @@ w.pack()
 
 def intro():
     """ Introductory Function -> starts the story going """
-    messagebox.showinfo("Title", "\n You are a normal person with a job at a worldwide company. Work has been a bit stressful lately." + \
-                        "You get off work and you get called by your roommate calls you on the way home and asks you to go to the store and pick up some vegitables for dinner." + \
-                        "you say you can, so you go to the local grocery store and buy some vegitable." + \
+    messagebox.showinfo("Title", "\n You are a normal person with a job at a worldwide company. Work has been a bit stressful lately. n\
+You get off work and you get called by your roommate calls you on the way home and asks you to go to the store and pick up some vegitables for dinner. n\
+you say you can, so you go to the local grocery store and buy some vegitable." + \
                         "You stumble across the onions section and you look at the onions.")
     choice = simpledialog.askinteger("Do you buy an onion?",
                                    "you must choose 1 or 2. 1 for Buying the onion,2 for not buying the onion.")
@@ -43,7 +43,7 @@ right next to you then you see an explosive batarang hit your car and blow up yo
     else:
         choice1()
 def choice6():
-    choice = simpledialog.askinteger("The OgreLord",
+    choice = simpledialog.astinteger("The OgreLord",
                                      "You have summoned Shrek in to the world, now you have a choice. Betray Shrek or side with him")
 
     if (choice == 1):
@@ -56,6 +56,7 @@ def choice6():
     else:
         choice6()
 
+<<<<<<< HEAD
 def choice7():
     choice = simpledialog.askinteger("The fight",
                                      "As you enter your fighting stance you find a weak point in shreks defences," + \
@@ -89,6 +90,8 @@ def choice8():
 
     
     
+=======
+>>>>>>> cbe167e481eb41b76b26fe604bce944296a6b5f6
 ################ Gordon's Work #####################
 def choice1():
     choice = simpledialog.askinteger("you buy the onion",
@@ -112,8 +115,22 @@ a book titled 'Forbidden Onion Magic' and another called 'My Little Pony: Flutte
         choice5()
     elif (choice == 2):
         messagebox.showinfo("Flutterbutts Demise...." , "you pick up the MLP book and head back to your car to head home.")
+        choice4()
     else:
         choice3()
+def choice4():
+    choice = simpledialog.askinteger( "My Little Pony: Friendship Undone..." , " You get to your house and when you get to your door you hear a soft" +\
+                                      "'laddeh' flow through the air" +\
+                                      " along with a scent of onions wafting. When you open your door you see an onion. Do you pick it up?")
+    if (choice == 1):
+        messagebox.showinfo("The Crying Game..." , "You pick up the onion and immediately fall to the floor in tears. You dont know why, but you feel like you" +\
+                            " couldve done...more with your life. You spend 75 years crying at your door. THE END.")
+    elif (choice == 2):
+        messagebox.showinfo("House fire..." , "You kick the onion aside and go for the gasoline in your garage. After pouring gasoline on everything, you" +\
+                            "burn everything in the house, including you. THE END.")
+    else:
+        choice4()
+    
     
 
 def choice5():
@@ -133,4 +150,5 @@ def choice5():
                                     
 ################ Main #####################
 intro()
+
 root.destroy()
