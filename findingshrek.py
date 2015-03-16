@@ -86,6 +86,20 @@ def choice8():
                             " and eats you then spits you out then flys away. THE END")
     else:
         choice8()
+def choice9():
+    choice = simpledialog.askinteger("You arrive at Farquaads palace and meet him. He proposes a deal with you." + \
+                                     "The deal proposes for you to be immortal and hunt down all who praise shrek for him" + \
+                                     "Do you take the deal or not?")
+    if (choice == 1):
+        messagebox.showinfo("Take the deal",
+                            "You join his side, he hands you a potion labeled Immortality. you drink it and it and he reveals to you that you will slowly die." + \
+                            "He forces you to work for himi now as you slowly die. If you kill all who follow shrek he will give you the cure. THE END")
+    elif (choice == 2):
+        messagebox.showinfo("Refuse",
+                            "You refuse the deal and anger him. He chrages you drawing his sword, as he get within swinging distance you hear a roar. unsure what it is you punch him in the face and take his sword." + \
+                            "Before you get a chance to swing a dragon bursts throught the wall infront of you and eats him. The dragon then flies away. THE END.")
+        else:
+            choice9()
 
     
 ################ Gordon's Work #####################
