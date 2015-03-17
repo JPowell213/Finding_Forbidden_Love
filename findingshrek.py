@@ -98,8 +98,8 @@ def choice9():
         messagebox.showinfo("Refuse",
                             "You refuse the deal and anger him. He chrages you drawing his sword, as he get within swinging distance you hear a roar. unsure what it is you punch him in the face and take his sword." + \
                             "Before you get a chance to swing a dragon bursts throught the wall infront of you and eats him. The dragon then flies away. THE END.")
-        else:
-            choice9()
+    else:
+        choice9()
 
     
 ################ Gordon's Work #####################
