@@ -157,7 +157,10 @@ def choice5():
         messagebox.showinfo("The Onion Sadness..." , "You decide not to summon Shrek")
     else:
         choice5()
-                                    
+
+################ Winikka's Work #####################
+# TODO: Add my functions below
+
 ################ Main #####################
 intro()
 
