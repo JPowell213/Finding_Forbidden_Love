@@ -53,6 +53,7 @@ def choice6():
     elif (choice == 2):
         messagebox.showinfo("The Great Swamp",
                             "The Great swamp beyond resides down to earth and takes you with it, THE END")
+        gchp2()
     else:
         choice6()
 
@@ -157,6 +158,18 @@ def choice5():
         messagebox.showinfo("The Onion Sadness..." , "You decide not to summon Shrek")
     else:
         choice5()
+##################Gordon Chapter 2#############################
+def gchp2():
+    choice = simpledialog.askinteger("It's been 500 years since the glorious Great Swamp Beyond came back down to the physical realm. Everyone" +\
+                                     "is happy , world population in skyrocketing, hunger and disease is non existant. Unfortunately, no one has" +\
+                                     "seen or heard from Shrek himself or the holy follower that brought him back in a month. The masses are beggining" +\
+                                     "to panic, and on the way home from the local onion flavored ice cream shoppe, a robed man approaches you. he says" +\
+                                     " ' Bonquiqui, asw you may have heard, shrek has gone missing. The truth of that is Prince Charming has incited" +\
+                                     " another rebellion against Shrek and taken him captive. Right now, Shreks forces are fighting Charming and we" +\
+                                     "cant get anyone to go get Shrek, so you are our only hope, since Charming wont expect a civilian to come save" +\
+                                     "our lord and savior, the green one himself.' do you take him up on his offer and go save Shrek?"
+    if (choice == 1):
+        messagebox.showinfo(
 
 ################ Winikka's Work #####################
 # TODO: Add my functions below
