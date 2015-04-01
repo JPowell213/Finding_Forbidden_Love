@@ -99,9 +99,21 @@ def choice9():
         messagebox.showinfo("Refuse",
                             "You refuse the deal and anger him. He chrages you drawing his sword, as he get within swinging distance you hear a roar. unsure what it is you punch him in the face and take his sword." + \
                             "Before you get a chance to swing a dragon bursts throught the wall infront of you and eats him. The dragon then flies away. THE END.")
+        jpchpask()
     else:
         choice9()
-
+def jpchpask():
+    choice = simpledialog.askstring("Chapter two",
+                           "Do you wish to go on to chapter 2? Type 'yes' or 'no'")
+    if choice == "yes":
+        jpchp2start
+    elif choice == "no":
+        messagebox.showinfo("Thanks",
+                            "Thank you for playing")
+    else:
+        jpchask()
+def jpchp2start()
+            
     
 ################ Gordon's Work #####################
 def choice1():
