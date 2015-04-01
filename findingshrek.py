@@ -43,7 +43,7 @@ right next to you then you see an explosive batarang hit your car and blow up yo
     else:
         choice1()
 def choice6():
-    choice = simpledialog.astinteger("The OgreLord",
+    choice = simpledialog.askinteger("The OgreLord",
                                      "You have summoned Shrek in to the world, now you have a choice. Betray Shrek or side with him")
 
     if (choice == 1):
@@ -167,9 +167,10 @@ def gchp2():
                                      " ' Bonquiqui, asw you may have heard, shrek has gone missing. The truth of that is Prince Charming has incited" +\
                                      " another rebellion against Shrek and taken him captive. Right now, Shreks forces are fighting Charming and we" +\
                                      "cant get anyone to go get Shrek, so you are our only hope, since Charming wont expect a civilian to come save" +\
-                                     "our lord and savior, the green one himself.' do you take him up on his offer and go save Shrek?"
+                                     "our lord and savior, the green one himself.' do you take him up on his offer and go save Shrek?")
     if (choice == 1):
-        messagebox.showinfo(
+        messagebox.showinfo("Lets get down to business to defeat, the prince..." , "You take up the hooded figure on his offer to free shrek")
+        choice
 
 ################ Winikka's Work #####################
 # TODO: Add my functions below
