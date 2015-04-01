@@ -99,21 +99,9 @@ def choice9():
         messagebox.showinfo("Refuse",
                             "You refuse the deal and anger him. He chrages you drawing his sword, as he get within swinging distance you hear a roar. unsure what it is you punch him in the face and take his sword." + \
                             "Before you get a chance to swing a dragon bursts throught the wall infront of you and eats him. The dragon then flies away. THE END.")
-        jpchpask()
     else:
         choice9()
-def jpchpask():
-    choice = simpledialog.askstring("Chapter two",
-                           "Do you wish to go on to chapter 2? Type 'yes' or 'no'")
-    if choice == "yes":
-        jpchp2start
-    elif choice == "no":
-        messagebox.showinfo("Thanks",
-                            "Thank you for playing")
-    else:
-        jpchask()
-def jpchp2start()
-            
+
     
 ################ Gordon's Work #####################
 def choice1():
@@ -182,7 +170,11 @@ def gchp2():
                                      "our lord and savior, the green one himself.' do you take him up on his offer and go save Shrek?")
     if (choice == 1):
         messagebox.showinfo("Lets get down to business to defeat, the prince..." , "You take up the hooded figure on his offer to free shrek")
-        choice
+        choiceq1yes()
+    elif (choice ==2):
+        messagebox.showinfo("DECAPATATIOOOOOOOOOOOOOOOON" , "The hooded man decapatates you right on the spot for not being devoted to Shrek. THE END")
+    else:
+        choicegchp2()
 
 ################ Winikka's Work #####################
 # TODO: Add my functions below
