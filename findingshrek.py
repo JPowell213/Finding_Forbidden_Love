@@ -175,7 +175,29 @@ def gchp2():
         messagebox.showinfo("DECAPATATIOOOOOOOOOOOOOOOON" , "The hooded man decapatates you right on the spot for not being devoted to Shrek. THE END")
     else:
         choicegchp2()
-
+################ JP's Work ########################
+def cpt2():
+    choice = simpledialog.askinterger("New Begingings","5 years after the death of Lord Farquaad, you still work for the same company but now you are the CEO." \
+                                      "You get a strange leter on your desk, it tell you to meet up with an old friend at Farquaad's castle." \
+                                      "Do you go? 1 to go 2 not to go")
+    if (choice == 1):
+        rick()
+    elif (choice == 2):
+        norisk()
+    else:
+        cpt2()
+def risk():
+    choice = simpledialog.askinterger("risk", "You call your assistant taking some time off. You go home, not knowing what to expect and arm your self. you grab a knife, a pistol and a rifle." \
+                             "you drive to the castle and walk in. As you walk in you see that it has been abandoned. You walk up to the throne room as the letter told you to." \
+                             "Sitting in the the throne is a big dark fiqure. Its shrek! Alerted you draw you knife. Do you slice or stab? 1 for slice 2 for stab.")
+    if (choice == 1):
+        cut()
+    elif (choice == 2):
+        stab()
+    else:
+        risk()
+def norisk():
+    choice = simpledialog.askinterger(
 ################ Winikka's Work #####################
 # TODO: Add my functions below
 
